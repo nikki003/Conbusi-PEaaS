@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300&display=swap');
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -48,6 +48,10 @@ li.active,a:hover {
 
 .jumbotron-background {
   background: transparent;
+
+}
+
+.jumbotron-title {
   color: white;
   padding: 90px 580px 20px 200px;
   padding-bottom: 125px;
@@ -57,4 +61,30 @@ li.active,a:hover {
   border-radius: 20px;
   font-size: 12px;
   padding: 10px 25px 10px 25px;
+}
+
+.services-title {
+  padding: 50px 0px 30px 0px;
+}
+
+.row-2 {
+  padding-top: 20px;
+}
+
+.service-grid {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 90%;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.about-content {
+  margin-top: 70px;
+}
+
+.about-image {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
 }
