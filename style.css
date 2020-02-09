@@ -36,7 +36,7 @@ li.active,a:hover {
 
 .image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/banner/banner_2.png");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   /* height: 400px; */
 }
@@ -87,4 +87,112 @@ li.active,a:hover {
   width: 100%;
   margin-top: auto;
   margin-bottom: auto;
+  border-radius: 10px;
+}
+
+.case-image {
+  background: linear-gradient(rgba(23,45,68, 0.7), rgba(23,45,68, 0.7)), url("img/about/counter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* padding: 78px; */
+}
+
+.case-content {
+  color: white;
+  padding: 150px 0px 50px 0px;
+  font-size: 12px;
+}
+
+.case-title {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.case-card {
+  width: 18rem;
+  font-size: 12px;
+  display: block;
+  z-index: 1;
+  width: 100%;
+}
+
+.case-study {
+  padding-bottom: 30px;
+}
+
+.more-cases {
+  padding: 40px 0px 40px 0px;
+
+}
+
+.case-button {
+  background: transparent;
+  border: 1px solid rgba(135, 206, 235, 0.5);
+  color: skyblue;
+  border-radius: 20px;
+  font-size: 12px;
+  padding: 10px 25px 10px 25px;
+}
+
+.testimonial {
+  background: linear-gradient(rgba(23,45,68, 0.7), rgba(23,45,68, 0.7)), url("img/banner/testmonial.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.quote {
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.quote-text {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+.testimonial-image {
+  width: 30px;
+  padding-bottom: 10px;
+}
+
+.testimonial-info {
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+.test-small {
+  font-size: 8px;
+  font-weight: normal;
+}
+
+.form {
+  padding-top: 100px;
+}
+
+.form-head {
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-image {
+  width: 120%;
+}
+
+.form-message {
+  padding-top: 40px;
+}
+
+.form-line {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 10px;
+}
+
+.container-width {
+  width: 60%;
 }
