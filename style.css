@@ -173,6 +173,7 @@ li.active,a:hover {
 
 .form {
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .form-head {
@@ -195,4 +196,77 @@ li.active,a:hover {
 
 .container-width {
   width: 60%;
+}
+
+.info {
+  background: linear-gradient(rgba(23,45,68, 0.7), rgba(23,45,68, 0.7)), url("img/banner/info_banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 0px 90px 0px;
+}
+
+.info-content {
+  font-size: 10px;
+}
+
+.contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-logo {
+  width: 30%;
+}
+
+.contact-container-width {
+  width: 70%;
+  padding-bottom: 30px;
+}
+
+.footer-text {
+  padding-top: 20px;
+  font-size: 8px;
+  color: gray;
+}
+
+.contact-icons{
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.facebook-icon {
+
+}
+
+.form-size {
+  font-size: 8px;
+}
+
+.button-subscribe {
+  border-radius: 20px;
+  font-size: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.footer {
+  padding-bottom: 10px;
+  color: gray;
+  font-size: 8px;
+}
+
+.footer-container-width {
+  width: 50%;
+  padding-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer-border {
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+.rowspan {
+  padding: 0px;
 }
