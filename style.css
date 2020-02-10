@@ -99,7 +99,7 @@ li.active,a:hover {
 
 .case-content {
   color: white;
-  padding: 150px 0px 50px 0px;
+  padding: 100px 0px 50px 0px;
   font-size: 12px;
 }
 
@@ -145,7 +145,8 @@ li.active,a:hover {
   color: white;
   font-weight: bolder;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 60px;
+  font-size: 44px;
 }
 
 .quote-text {
@@ -231,12 +232,19 @@ li.active,a:hover {
 }
 
 .contact-icons{
-  font-size: 20px;
+  font-size: 16px;
   padding-top: 20px;
 }
 
-.facebook-icon {
+.facebook-icon, .twitter-icon, .instagram-icon {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 24px;
+  color: rgba(0, 0, 0, 0.5);
+}
 
+.facebook-icon {
+  padding-left: 8px;
 }
 
 .form-size {
@@ -269,4 +277,15 @@ li.active,a:hover {
 
 .rowspan {
   padding: 0px;
+}
+
+.heart, .copyright {
+  font-size: 12px;
+  color: gray;
+}
+
+i.users, i.chart, i.case-heart, i.handshake {
+  font-size: 50px;
+  padding-bottom: 20px;
+  color: deepskyblue;
 }
